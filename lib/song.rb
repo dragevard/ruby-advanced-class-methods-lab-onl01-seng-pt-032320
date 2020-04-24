@@ -10,8 +10,9 @@ class Song
 
   def save
     self.class.all << self
+    binding.pry
   end
-    binding.pry 
+    
   def self.create
     song = self.new
     Song.all << song
