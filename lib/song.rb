@@ -51,6 +51,6 @@ class Song
   
   def self.new_from_filename(file)
     song = self.new 
-    song.name = (name.split(" - "))
+    song.name = (name.split(" - ")[1].chom[])
     
 end
